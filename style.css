@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Odia:wght@100;200;300;400;500;600;700;800&family=Squada+One&display=swap');
+
+body {
+    font-family: 'Anek Odia';
+}
+
+.center {
+    width: 90%;
+    padding: 10px;
+    margin: 0px auto;
+}
+
+.col-sm {
+    text-align: center !important;
+}
+
+.products {
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    padding: 10px;
+    margin-top: 20px;
+}
