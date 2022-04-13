@@ -28,7 +28,7 @@
                         <?php
                             for ($j = 1; $j <= 5; $j++) {
                                 ?>
-                                <div class="col-sm">
+                                <div class="col-sm" onclick="location.href='https://www.google.com.br/';" style="cursor: pointer;">
                                     <img src="https://droper-media.us-southeast-1.linodeobjects.com/642022144319647.webp" class="img-fluid">
                                     <p>Air Jordan 1 High Heritage</p>
                                 </div>
