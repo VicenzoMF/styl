@@ -1,2 +1,2 @@
 # styl
-Site de revenda de Sneakers 
+👟 Projeto de site de revenda de sneakers. 
