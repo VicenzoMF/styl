@@ -5,16 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <title>Produtos</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
+<header>
+<?php 
+include_once "./include/navbar.php";
+?>
+</header>
 <body>
     <div class="center">
         <h1>Buscar produtos</h1>
-        <div class="input-group rounded">
-            <input type="search" class="form-control rounded" placeholder="Nomes ou marca de sneakers" aria-label="Nomes ou marcas de sneakers" aria-describedby="search-addon" />
+        <div class="search-container input-group">
+            <span class="search-icon material-icons">search</span>
+            <input type="search" class="search-input form-control" placeholder="Nomes ou marca de sneakers" aria-label="Nomes ou marcas de sneakers" aria-describedby="search-addon" />
         </div>
 
         <div class="products">
