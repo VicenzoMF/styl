@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anek+Odia:wght@100;200;300;400;500;600;700;800&family=Squada+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
 body {
     font-family: 'Anek Odia';
@@ -10,6 +11,18 @@ body {
     font-family: 'Noto Serif', serif !important;
     font-weight: bolder;
     font-size: 1.5rem !important;
+}
+
+.nav-link {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navbar-toggler {
+    border: 0 solid transparent !important;
+}
+
+.navbar-toggler-icon {
+    color: white !important;
 }
 
 .center {
