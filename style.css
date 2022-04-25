@@ -98,4 +98,22 @@ body {
 #p-t-c {
     color:rgb(117, 112, 116);
     position: center;
+footer {
+    height: 11rem;
+}
+
+.footer {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 10rem;
+    width: 100%;
+    background-color: #343a40;
+}
+
+.footer a {
+    margin-top: 1rem;
+    font-size: 2rem !important;
+    color: white !important;
 }

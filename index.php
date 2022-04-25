@@ -24,6 +24,112 @@ include_once "./include/navbar.php";
   </div>
 </div>
 
+<div class="center">
+    <h1>Escolhidos para você</h1>
+    <div class="products">
+        <div class="container">
+            <?php
+                for ($i = 1; $i <= 2; $i++) {
+                    ?>
+
+                    <div class="row">
+
+                    <?php
+                        for ($j = 1; $j <= 5; $j++) {
+                            ?>
+                            <div class="col-sm">
+                                <img src="https://droper-media.us-southeast-1.linodeobjects.com/642022144319647.webp" class="img-fluid">
+                                <p>Air Jordan 1 High Heritage</p>
+                            </div>
+                        <?php
+                        }
+                    ?>
+
+                    </div>
+
+                    <?php
+                }
+            ?>
+            
+
+        </div>
+    </div>
+
+    <h1>Novas coleções</h1>
+    <div class="products">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/jordan.gif" class="d-block w-100" alt="...">
+          </div>
+        </div>  
+      </div>
+        <div class="container">
+            <?php
+                for ($i = 1; $i <= 1; $i++) {
+                    ?>
+
+                    <div class="row">
+
+                    <?php
+                        for ($j = 1; $j <= 5; $j++) {
+                            ?>
+                            <div class="col-sm">
+                                <img src="https://droper-media.us-southeast-1.linodeobjects.com/642022144319647.webp" class="img-fluid">
+                                <p>Air Jordan 1 High Heritage</p>
+                            </div>
+                        <?php
+                        }
+                    ?>
+
+                    </div>
+
+                    <?php
+                }
+            ?>
+            
+
+        </div>
+    </div>
+
+    <h1>Novo drop</h1>
+    <div class="products">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/jordanheritage.webp" class="d-block w-100" alt="...">
+          </div>
+        </div>  
+      </div>
+        <div class="container">
+            <?php
+                for ($i = 1; $i <= 1; $i++) {
+                    ?>
+
+                    <div class="row">
+
+                    <?php
+                        for ($j = 1; $j <= 1 ; $j++) {
+                            ?>
+                            <div class="col-sm">
+                                <img src="https://droper-media.us-southeast-1.linodeobjects.com/642022144319647.webp" width="140rem" class="img-fluid">
+                                Air Jordan 1 High Heritage
+                                <button type="button" class="btn btn-dark border-light">Comprar</button>
+                            </div>
+                        <?php
+                        }
+                    ?>
+
+                    </div>
+
+                    <?php
+                }
+            ?>
+            
+
+        </div>
+    </div>
+</div>
 
 
 
@@ -34,4 +140,7 @@ include_once "./include/navbar.php";
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
+<?php
+include_once "./include/footer.php"
+?>
 </html>
