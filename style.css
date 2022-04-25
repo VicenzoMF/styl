@@ -73,3 +73,29 @@ body {
     border-radius: 1.5rem !important;
     background-color: white;
 }
+
+.contact {
+    padding-left: 200px;
+    padding-top: 100px;
+    position: center;
+}
+
+#insta{
+    display: block ;
+    width: 700px;
+    color:#f5f5f5;
+    background:  rgb(216,25,200);
+    background: linear-gradient(90deg, rgba(216,25,200,1) 0%, rgba(229,16,117,1) 35%, rgba(235,181,36,1) 75%, rgba(237,255,0,1) 93%) !important;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin: 20px;
+    position: center;
+    text-align: center;
+}
+
+#p-t-c {
+    color:rgb(117, 112, 116);
+    position: center;
+}

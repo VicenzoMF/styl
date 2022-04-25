@@ -1,17 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title> Contato </title>
-</head>
+<?php 
+include_once "./include/head.php"
+?>
+<header>
+<?php 
+include_once "./include/navbar.php";
+?>
+</header>
 <body>
   <div class="contact"> 
-      <h2> Nos contate pelo: </h2>
-      <h3> Instagram: @styl </h3>
-      <h3> Email: styl@contato.com </h3> 
+      <h2> Fale Conosco </h2>
+      <div id="insta">
+      <h3> Atendimento pelo Instagram </h3>
+      <h3>  <a href="">@styl</a>  </h3>
+      </div>
+      <div id="p-t-c">
+      <p> Tempo médio de resposta:  </p> 
+      <p> Até 4 horas dentro do horário comercial  </p> 
+</div>
   </div>  
 </body>
 </html>
